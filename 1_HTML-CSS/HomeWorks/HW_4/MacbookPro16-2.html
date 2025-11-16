@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        *{
+            margin:0;
+        }
+        p{
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 45px;
+        }
+        header{
+            height:20vh;
+            background: #8d8484;
+        }
+        main{
+            display: flex;
+
+        }
+        section{
+            height:20vh;
+            width: 73vw;
+        }
+        .content-1{
+            background: #776969;
+            color: #fff;
+        }
+        .content-2{
+            background: #643030;
+            color: #fff;
+        }
+        .content-3{
+            background: #441818;
+            color: #fff;
+        }
+        .spam-1{
+            background: #937575;
+            color: #fff;
+        }
+        .spam-2{
+            background: #644c4c;
+            color: #fff;
+        }
+        aside{
+            height:30vh;
+            width: 27vw;
+        }
+        footer {
+            height: 20vh;
+            background: #bdbdbd;
+        }
+        header, section, aside, footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<header><p>Header</p></header>
+<main>
+    <div class="content">
+        <section class="content-1"><p>Content-1</p></section>
+        <section class="content-2"><p>Content-2</p></section>
+        <section class="content-3"><p>Content-3</p></section>
+    </div>
+    <div class="spam">
+        <aside class="spam-1"><p>spam-1</p></aside>
+        <aside class="spam-2"><p>spam-2</p></aside>
+    </div>
+</main>
+<footer><p>footer</p></footer>
+</body>
+</html>
