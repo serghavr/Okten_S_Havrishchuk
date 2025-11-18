@@ -1,0 +1,35 @@
+body{
+    width:100%;
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.roket{
+    padding-top: 300px;
+    animation: roketfly 10s linear infinite;
+}
+@keyframes roketfly{
+    from{transform: rotate(0deg) translate(0,0);}
+    25%{transform: rotate(5deg) translate(0,-100px) scale(1.2) ;}
+    50%{transform: rotate(0deg) translate(-50px,0);}
+    75%{transform: rotate(-5deg) translate(0,-50px) scale(0.8) ;}
+    100%{transform: rotate(0deg) translate(0,0);}
+}
+.saturn {
+    animation: saturnfly 12s ease-in-out infinite;
+}
+@keyframes saturnfly{
+    from{transform: translate(0,-1000px) scale(1.5) ;}
+    to{transform: translate(0,1000px) scale(0.5) ;}
+}
+.saturn {
+    animation: saturnfly 12s ease-in-out infinite;
+}
+.jupiter{
+    animation: jupiterfly 8s ease-in-out infinite;
+}
+@keyframes jupiterfly{
+    from{transform: translate(0,-1000px) scale(0.7) ;}
+    to{transform: translate(0,1000px) scale(1.3) ;}
+}
