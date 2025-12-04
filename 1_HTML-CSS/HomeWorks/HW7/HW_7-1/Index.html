@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:132px;
+        }
+        .card{
+            border: 4px solid #554c4c;
+            width: 319px;
+            height: 492px;
+            background: rgba(217, 217, 217, 0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .logo{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: white;
+            border: 4px solid #554c4c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: -50px;
+        }
+        .card h3{
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            font-size: 40px;
+        }
+        .card p{
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            text-align: center;
+            color: #000;
+            width: 211px;
+        }
+        .green-border{
+            border: 4px solid #65856e;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <div class="logo">
+        <img src="img/Ds3Tool.png" alt="Ds3Tool">
+    </div>
+    <h3>Lorem</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+</div>
+<div class="card green-border">
+    <div class="logo green-border">
+        <img src="img/Chessboard.png" alt="Chessboard">
+    </div>
+    <h3>Lorem</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+</div>
+<div class="card">
+    <div class="logo">
+        <img src="img/Battle.png" alt="Battle">
+    </div>
+    <h3>Lorem</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+</div>
+</body>
+</html>

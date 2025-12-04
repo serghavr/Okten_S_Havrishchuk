@@ -1,0 +1,52 @@
+body{
+    background-color: #198C86;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+.container{
+    height: 50vh;
+    width: 50vw;
+    background-color: white;
+    border-radius: 20px;
+}
+.container div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(25, 140, 134, 0.18);
+    height: 20%
+}
+.container div:nth-child(1) h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+.container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="text"],
+input[type="password"]{
+    width: 300px;
+    margin: 15px;
+    height: 30px;
+}
+.container>form>div{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+form input[type="submit"]{
+    background-color: rgba(25, 140, 134, 0.18);
+    border-radius: 10px;
+    border: 1px solid rgba(25, 140, 134, 0.18);
+    height: 25px;
+    width: 80px;
+}
