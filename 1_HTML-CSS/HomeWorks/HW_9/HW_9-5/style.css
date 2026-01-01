@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows:1fr 3fr 1fr;
+    grid-template-areas:
+    "header header header"
+    "left-aside main right-aside"
+    "footer footer footer";
+}
+header{
+    grid-area: header;
+    background: #d9d9d9;
+}
+footer{
+    grid-area: footer;
+    background: #d9d9d9;
+}
+main{
+    grid-area: main;
+    background: #a4a4a4;
+}
+.left-aside{
+    grid-area: left-aside;
+    background: #c0bdbd;
+}
+.right-aside{
+    grid-area: right-aside;
+    background: #c0bdbd;
+}
