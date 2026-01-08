@@ -1,0 +1,23 @@
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    background-color: olive;*/
+}
+.flex{
+    height: 600px;
+    background-color: olive;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.month{
+    margin: 40px 0;
+    width: 250px;
+    height: 250px;
+    background-color: antiquewhite;
+    display: flex;
+    border-radius: 5px;
+}
+.month p{
+    text-align: center;
+}
