@@ -1,4 +1,4 @@
-function foobar (arr)  {
+const foobar = (arr) => {
     document.write(`<ul>`)
         for (const item of arr) {
             document.write(`<li>${item}</li>`)
