@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 40px 20px;
+    background-color: #f3f4f6;
+    font-family: 'Inter', sans-serif;
+    color: #1f2937;
+}
+/*-------------coursesDescrittion-------------------*/
+.coursesDescription{
+    max-width: 850px;
+    margin: 0 auto 40px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+}
+.coursesTitle{
+    font-size: 28px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #6366f1;
+}
+.coursesDuration {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.duration span{
+    font-weight: 600;
+    color: #6366f1;
+    margin-right: 5px;
+}
+
+.Duration{
+    flex: 1;
+    background: #f9fafb;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    font-size: 15px;
+}
+/*--------------modules----------------*/
+.modulesDiv{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.modlesP{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #6b7280;
+    margin-bottom: 15px;
+
+}
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
+}
+li{
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: left;
+    transition: all 0.2s ease;
+}
+.modulesDiv li:hover{
+    background: #6366f1;
+    color: white;
+    border-color: #6366f1;
+    transform: translateY(-2px);
+}
