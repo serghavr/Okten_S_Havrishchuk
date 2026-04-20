@@ -1,0 +1,23 @@
+#conteiner{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+.conteinerDiv{
+    width: 150px;
+    height: 100px;
+    background-color: #3f50e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bottomButton{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    width: 150px;
+}
